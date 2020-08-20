@@ -195,10 +195,10 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="ion-hammer"></i></span>
+                <span class="ico-circle"><i class="ion-android-clipboard"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Web Design</h2>
+                <h2 class="s-title">Lorem ipsum</h2>
                 <p class="s-description text-center">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
                   adipisci eaque autem fugiat! Quia, provident vitae! Magni
@@ -213,7 +213,7 @@
                 <span class="ico-circle"><i class="ion-paintbrush"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Web Development</h2>
+                <h2 class="s-title">Lorem ipsum</h2>
                 <p class="s-description text-center">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
                   adipisci eaque autem fugiat! Quia, provident vitae! Magni
@@ -225,10 +225,10 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="ion-ios-people"></i></span>
+                <span class="ico-circle"><i class="ion-chatboxes"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Photography</h2>
+                <h2 class="s-title">Lorem ipsum</h2>
                 <p class="s-description text-center">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
                   adipisci eaque autem fugiat! Quia, provident vitae! Magni
@@ -241,11 +241,11 @@
             <div class="service-box">
               <div class="service-ico">
                 <span class="ico-circle"
-                  ><i class="ion-android-phone-portrait"></i
+                  ><i class="ion-clock"></i
                 ></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Responsive Design</h2>
+                <h2 class="s-title">Lorem ipsum</h2>
                 <p class="s-description text-center">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
                   adipisci eaque autem fugiat! Quia, provident vitae! Magni
@@ -257,10 +257,10 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="ion-paintbrush"></i></span>
+                <span class="ico-circle"><i class="ion-settings	"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Graphic Design</h2>
+                <h2 class="s-title">Lorem ipsum</h2>
                 <p class="s-description text-center">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
                   adipisci eaque autem fugiat! Quia, provident vitae! Magni
@@ -272,10 +272,10 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="ion-stats-bars"></i></span>
+                <span class="ico-circle"><i class="ion-thumbsup"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Marketing Services</h2>
+                <h2 class="s-title">Lorem ipsum</h2>
                 <p class="s-description text-center">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
                   adipisci eaque autem fugiat! Quia, provident vitae! Magni
@@ -291,7 +291,7 @@
 
     <div
       class="section-counter paralax-mf bg-image"
-      style="background-image: url(img/counters-bg.jpg);"
+      style="background-image: url(img/work1/1.jpg);"
     >
       <div class="overlay-mf"></div>
       <div class="container">
