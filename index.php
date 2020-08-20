@@ -182,7 +182,7 @@
           <div class="col-sm-12">
             <div class="title-box text-center">
               <h3 class="title-a">
-                Services
+                Our Services
               </h3>
               <p class="subtitle-a">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -388,11 +388,11 @@
                   </div>
                 </div>
               </a>
-                  <a href="img/work-1.jpg" data-lightbox="gallery-mf-1">
-                  <a href="img/work-1.jpg" data-lightbox="gallery-mf-1">
-                  <a href="img/work-1.jpg" data-lightbox="gallery-mf-1">
-                  <a href="img/work-1.jpg" data-lightbox="gallery-mf-1">
-                  <a href="img/work-1.jpg" data-lightbox="gallery-mf-1">
+                  <a href="img/work1/1.jpg" data-lightbox="gallery-mf-1">
+                    <a href="img/work1/2.jpg" data-lightbox="gallery-mf-1">
+                      <a href="img/work1/3.jpg" data-lightbox="gallery-mf-1">
+                        <a href="img/work1/4.jpg" data-lightbox="gallery-mf-1">
+                          <a href="img/work1/5.jpg" data-lightbox="gallery-mf-1">
             </div>
           </div>
           <div class="col-md-4">
