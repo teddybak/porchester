@@ -12,7 +12,7 @@
   // Preloader
   $(window).on('load', function () {
     if ($('#preloader').length) {
-      $('#preloader').delay(100).fadeOut('slow', function () {
+      $('#preloader').delay(0).fadeOut('fast', function () {
         $(this).remove();
       });
     }
