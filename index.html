@@ -82,7 +82,7 @@
 
 
       $('body').click(function(){
-        window.location.href = "http://localhost:8080/home.html"
+        window.location.href = "https://porchester.herokuapp.com/home.html"
       });
 
     </script>
