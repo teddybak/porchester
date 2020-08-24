@@ -47,15 +47,34 @@
     .content {
         position: fixed;
         bottom: 50;
-        background: rgba(0, 0, 0, 0.5);
+        /* background: rgba(0, 0, 0, 0.5); */
         color: #f1f1f1;
         width: 100%;
         padding: 20px;
+        z-index: 500;
+        margin-top: 10%;
+
+      } 
+
+      .content h1{
+        color:#ddd
+      }
+      #myBtn {
+        width: 200px;
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        background: blue;
+        color: #fff;
+        cursor: pointer;
+        z-index: 500;
+
       }
 
-  
-
-
+      #myBtn:hover {
+        background: #ddd;
+        color: black;
+      }
    
   </style>
 
@@ -111,18 +130,20 @@
       </div>
     </nav>
     <!--/ Nav End /-->
-
-
- 
-
      
  
 
-    <video class="video-fluid"   autoplay="autoplay" loop="loop" id="video" controls muted preload="auto" title="Porchester">
+    <video class="video-fluid"   autoplay="autoplay"  id="video" muted preload="auto" title="Porchester">
         <source src="/video/intro.mp4" type="video/mp4"/>
     </video>
 
-
+    <div class="content">
+      <h1>Weclome to Porchester Interiors</h1>
+      <p style="font-style: italic;">
+        "Always delivering more than expected"
+      </p>
+      <button id="myBtn" onclick="myFunction()">Skip Intro</button>
+    </div>
 
  
     <!--/ Intro Skew Star /-->
@@ -847,10 +868,7 @@
                     </div>
                     <div class="more-info">
                       <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis dolorum dolorem soluta quidem expedita aperiam
-                        aliquid at. Totam magni ipsum suscipit amet? Autem nemo
-                        esse laboriosam ratione nobis mollitia inventore?
+                          Always delivering more than expected
                       </p>
                       <ul class="list-ico">
                         <li>
@@ -951,14 +969,18 @@
 
       var video = document.getElementById("video");
       var btn = document.getElementById("myBtn");
+      var content = document.getElementsByClassName("content")[0];
 
-      $(document).ready(function() {
-          //$("#video").play();
-        });
+ 
+     
+        video.onclick = function (){
+          video.pause();
+          video.style.display = "none";
+          $("body").css("overflow", "visible");
+        }
+         
 
       $("body").css("overflow", "hidden");
-
-
       function myFunction() {
         if (video.paused) {
           video.play();
@@ -969,9 +991,10 @@
         }
       }
 
-      $("body").click(function () {
+      $(document).click(function () {
         video.pause();
         video.style.display = "none";
+        content.style.display = "none"
         $("body").css("overflow", "visible");
       }); 
 
