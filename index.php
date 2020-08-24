@@ -125,7 +125,7 @@
       <button id="myBtn" onclick="myFunction()">Pause</button>
     </div>
 
-    <video   autoplay="autoplay" loop="loop" id="video"
+    <video   autoplay="autoplay" loop="loop" id="video" controls muted
      preload="auto" title="Video">
         <source src="/video/intro.mp4" type="video/mp4"/>
      </video>
@@ -958,6 +958,9 @@
 
       var video = document.getElementById("video");
       var btn = document.getElementById("myBtn");
+
+      $("body").css("overflow", "hidden");
+
 
       function myFunction() {
         if (video.paused) {
