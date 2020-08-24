@@ -32,6 +32,33 @@
   ======================================================= -->
   </head>
 
+  <style>
+  
+
+    #video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100% !important;
+      min-height: 100% !important;
+      z-index: 500;
+    }
+
+    .content {
+        position: fixed;
+        bottom: 50;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+      }
+
+  
+
+
+   
+  </style>
+
   <body id="page-top">
     <!--/ Nav Star /-->
     <nav
@@ -84,6 +111,26 @@
       </div>
     </nav>
     <!--/ Nav End /-->
+
+
+
+    <div class="content">
+      <h1>Porchester</h1>
+      <p>
+        Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat
+        phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum
+        maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore
+        latine molestiae, ad mutat oblique delicatissimi pro.
+      </p>
+      <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+
+    <video   autoplay="autoplay" loop="loop" id="video"
+     preload="auto" title="Video">
+        <source src="/video/intro.mp4" type="video/mp4"/>
+     </video>
+
+
 
     <!--/ Intro Skew Star /-->
     <div
@@ -890,6 +937,7 @@
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
     <div id="preloader"></div>
 
+  
     <!-- JavaScript Libraries -->
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/jquery/jquery-migrate.min.js"></script>
@@ -906,5 +954,39 @@
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
+    <script>
+
+      var video = document.getElementById("video");
+      var btn = document.getElementById("myBtn");
+
+      function myFunction() {
+        if (video.paused) {
+          video.play();
+          btn.innerHTML = "Pause";
+        } else {
+          video.pause();
+          btn.innerHTML = "Play";
+        }
+      }
+
+      $("body").click(function () {
+        video.pause();
+        video.style.display = "none";
+        var content = document.getElementsByClassName("content");
+        content[0].style.display = "none";
+      });
+ 
+
+        $(document).ready(function() {
+          $("#video").play();
+        });
+
+        $("body").click(function () {
+          $("#video").pause();
+                video.style.display = "none";
+                //var content = document.getElementsByClassName("content");
+                //content[0].style.display = "none";
+              });
+    </script>
   </body>
 </html>

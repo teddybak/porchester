@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery.min.js"></script>
 
     <style>
       * {
@@ -79,12 +79,12 @@
         }
       }
 
-
-
-      $('body').click(function(){
-        window.location.href = "https://porchester.herokuapp.com/index.html"
+      $("body").click(function () {
+        video.pause();
+        video.style.display = "none";
+        var content = document.getElementsByClassName("content");
+        content[0].style.display = "none";
       });
-
     </script>
   </body>
 </html>
