@@ -39,8 +39,8 @@
       position: fixed;
       right: 0;
       bottom: 0;
-      min-width: 100% !important;
-      min-height: 100% !important;
+      width: 100%;
+      height: auto;
       z-index: 500;
     }
 
@@ -113,25 +113,18 @@
     <!--/ Nav End /-->
 
 
+ 
 
-    <div class="content">
-      <h1>Porchester</h1>
-      <p>
-        Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat
-        phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum
-        maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore
-        latine molestiae, ad mutat oblique delicatissimi pro.
-      </p>
-      <button id="myBtn" onclick="myFunction()">Pause</button>
-    </div>
+     
+ 
 
-    <video   autoplay="autoplay" loop="loop" id="video" controls muted
-     preload="auto" title="Video">
+    <video class="video-fluid"   autoplay="autoplay" loop="loop" id="video" controls muted preload="auto" title="Porchester">
         <source src="/video/intro.mp4" type="video/mp4"/>
-     </video>
+    </video>
 
 
 
+ 
     <!--/ Intro Skew Star /-->
     <div
       id="home"
@@ -959,6 +952,10 @@
       var video = document.getElementById("video");
       var btn = document.getElementById("myBtn");
 
+      $(document).ready(function() {
+          //$("#video").play();
+        });
+
       $("body").css("overflow", "hidden");
 
 
@@ -975,21 +972,10 @@
       $("body").click(function () {
         video.pause();
         video.style.display = "none";
-        var content = document.getElementsByClassName("content");
-        content[0].style.display = "none";
-      });
+        $("body").css("overflow", "visible");
+      }); 
+
  
-
-        $(document).ready(function() {
-          $("#video").play();
-        });
-
-        $("body").click(function () {
-          $("#video").pause();
-                video.style.display = "none";
-                //var content = document.getElementsByClassName("content");
-                //content[0].style.display = "none";
-              });
     </script>
   </body>
 </html>
