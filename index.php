@@ -29,7 +29,7 @@
   <body>
     <div class="container">
       <header class="codrops-header">
-        <h1>Porchester Interior</h1>
+        <h1>Welcome to Porchester Interior</h1>
       </header>
       <!-- /codrops-header -->
 
@@ -63,7 +63,7 @@
         </button>
         <button class="action action--hidden action--play">
 			<a href="/home.html"
-          <i class="fa fa-play"></i><span class="action__label">Skip</span>
+          <i class="fa fa-play"></i><span class="action__label">Skip &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp</span>
         </button>
       </div>
     </div>
