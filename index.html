@@ -33,49 +33,37 @@
   </head>
 
   <style>
-  
-
-    #video {
-      position: fixed;
-      right: 0;
-      bottom: 0;
-      /* width: 100%; */
-      height: auto;
-      z-index: 500;
+      html,
+    body {
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
     }
-
-    .content {
-        position: fixed;
-        bottom: 50;
-        /* background: rgba(0, 0, 0, 0.5); */
-        color: #f1f1f1;
+    #videoBG {
+      position: fixed;
+      z-index: -1;
+    }
+    @media (min-aspect-ratio: 16/9) {
+      #videoBG {
         width: 100%;
-        padding: 20px;
-        z-index: 500;
-        margin-top: 10%;
-
-      } 
-
-      .content h1{
-        color:#ddd
+        height: auto;
       }
-      #myBtn {
-        width: 200px;
-        font-size: 18px;
-        padding: 10px;
-        border: none;
-        background: blue;
-        color: #fff;
-        cursor: pointer;
-        z-index: 500;
-
+    }
+    @media (max-aspect-ratio: 16/9) {
+      #videoBG {
+        width: auto;
+        height: 100%;
       }
-
-      #myBtn:hover {
-        background: #ddd;
-        color: black;
+    }
+    @media (max-width: 767px) {
+      #videoBG {
+        display: none;
       }
-   
+      body {
+        background: url("poster.jpg");
+        background-size: cover;
+      }
+    }
   </style>
 
   <body id="page-top">
