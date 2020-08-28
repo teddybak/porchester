@@ -45,7 +45,9 @@
     classie.remove(videoWrap, "video-wrap--show");
     classie.add(videoWrap, "video-wrap--hide");
     videoEl.pause();
+    window.location.href = "/home.html";
   }
 
+  function redirectHome() {}
   init();
 })();
