@@ -49,4 +49,5 @@
 
   function redirectHome() {}
   init();
+  play()
 })();
