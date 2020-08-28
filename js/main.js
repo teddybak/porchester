@@ -25,7 +25,8 @@
     playCtrl.addEventListener("click", play);
     closeCtrl.addEventListener("click", hide);
     videoEl.addEventListener("canplaythrough", allowPlay);
-    videoEl.addEventListener("ended", hide);
+	videoEl.addEventListener("ended", hide);
+ 
   }
 
   function allowPlay() {
@@ -47,7 +48,5 @@
     videoEl.pause();
   }
 
-  function redirectHome() {}
-  init();
-  play()
-})();
+   init();
+ })();

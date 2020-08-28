@@ -54,9 +54,9 @@
         <div class="loader">
           <i class="fa fa-spinner fa-pulse"></i>
         </div>
-        <button class="action action--hidden action--play">
+        <button class="action action--hidden action--play" id="play">
           <i class="fa fa-play"></i
-          ><span class="action__label">Watch the video</span>
+          ><span class="action__label" >Watch the video</span>
         </button>
       </div>
     </div>
@@ -66,6 +66,10 @@
     <script src="js/classie.js"></script>
     <script src="js/main.js"></script>
     <script>
+      $( document ).ready(function() {
+        $("#play").click(function (){
+        });
+      });
       $("#close").click(function (e) {
          e.preventDefault(); //will stop the link href to call the blog page
         setTimeout(function () {
