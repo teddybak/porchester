@@ -43,7 +43,7 @@
           >
             <p>Sorry, but your browser does not support this video format.</p>
           </video>
-          <button class="action action--close">
+          <button class="action action--close" id="close">
             <i class="fa fa-close"></i
             ><span class="action__label action__label--hidden"
               >Close preview</span
@@ -64,6 +64,14 @@
       </div>
     </div>
     <!-- /container -->
+    <script>
+      $("#close").click(function (e) {
+        e.preventDefault(); //will stop the link href to call the blog page
+        setTimeout(function () {
+          window.location.href = "home.html"; //will redirect to your blog page (an ex: blog.html)
+        }, 2000); //will call the function after 2 secs.
+      });
+    </script>
     <script src="js/classie.js"></script>
     <script src="js/main.js"></script>
   </body>
