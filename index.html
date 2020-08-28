@@ -39,25 +39,23 @@
       height: 100vh;
       margin: 0;
     }
-    #videoBG {
-      position: fixed;
-      z-index: -1;
-    }
+ 
     @media (min-aspect-ratio: 16/9) {
-      #videoBG {
+      #video {
         width: 100%;
         height: auto;
       }
     }
     @media (max-aspect-ratio: 16/9) {
-      #videoBG {
+      #video {
         width: auto;
         height: 100%;
       }
     }
     @media (max-width: 767px) {
-      #videoBG {
-        display: none;
+      #video {
+        width: auto;
+        height: 100%;
       }
       body {
         background: url("poster.jpg");
@@ -119,7 +117,7 @@
      
  
 
-    <video class="video-fluid"   autoplay="autoplay"  id="video" muted preload="auto" title="Porchester">
+    <video class="video-fluid"   autoplay="autoplay"  id="video" muted preload="auto" title="Porchester" controls loop>
         <source src="/video/intro.mp4" type="video/mp4"/>
     </video>
 
