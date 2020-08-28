@@ -50,7 +50,7 @@
             >
           </button>
         </div>
-        <!-- /video-inner --> 
+        <!-- /video-inner -->
       </div>
       <!-- /video-wrap-->
       <div class="content">
@@ -73,7 +73,7 @@
          e.preventDefault(); //will stop the link href to call the blog page
         setTimeout(function () {
           window.location.href = "home.html"; //will redirect to your blog page (an ex: blog.html)
-        }, 2000); //will call the function after 2 secs.
+        }, 1000); //will call the function after 2 secs.
       });
     </script>
   </body>
