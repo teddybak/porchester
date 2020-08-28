@@ -64,15 +64,17 @@
       </div>
     </div>
     <!-- /container -->
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/main.js"></script>
     <script>
       $("#close").click(function (e) {
-        e.preventDefault(); //will stop the link href to call the blog page
+         e.preventDefault(); //will stop the link href to call the blog page
         setTimeout(function () {
           window.location.href = "home.html"; //will redirect to your blog page (an ex: blog.html)
         }, 2000); //will call the function after 2 secs.
       });
     </script>
-    <script src="js/classie.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>
