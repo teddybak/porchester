@@ -61,10 +61,6 @@
           <i class="fa fa-play"></i
           ><span class="action__label">Watch the video</span>
         </button>
-        <button class="action action--hidden action--play">
-			<a href="/home.html"
-          <i class="fa fa-play"></i><span class="action__label">Skip &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp</span>
-        </button>
       </div>
     </div>
     <!-- /container -->
