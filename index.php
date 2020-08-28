@@ -7,12 +7,9 @@
     <title>Porchester Interiors</title>
     <meta
       name="description"
-      content="A simple video opening animation based on the one seen on http://momentsapp.com/"
+      content="Porchester Interiors"
     />
-    <meta
-      name="keywords"
-      content="html5 video, animation, moments app, fullscreen, effect, web design, tutorial"
-    />
+ 
     <meta name="author" content="Codrops" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
