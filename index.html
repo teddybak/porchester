@@ -169,24 +169,15 @@
                       </h5>
                     </div>
                     <p class="lead text-justify">
-                      Curabitur non nulla sit amet nisl tempus convallis quis ac
-                      lectus. Curabitur arcu erat, accumsan id imperdiet et,
-                      porttitor at sem. Praesent sapien massa, convallis a
-                      pellentesque nec, egestas non nisi. Nulla porttitor
-                      accumsan tincidunt.
+                      Porchester interiors is a specialist interior fit out company undetaking high quality work for Retailers, Restaurants and Leisure occupiers, as well as Residential projects.
                     </p>
                     <p class="lead text-justify">
-                      Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
-                      a. Vivamus suscipit tortor eget felis porttitor volutpat.
-                      Vestibulum ac diam sit amet quam vehicula elementum sed
-                      sit amet dui. porttitor at sem.
+                      Based in Central London, weare able to assist with projects throughout the UK.
                     </p>
                     <p class="lead text-justify">
-                      Nulla porttitor accumsan tincidunt. Quisque velit nisi,
-                      pretium ut lacinia in, elementum id enim. Nulla porttitor
-                      accumsan tincidunt. Mauris blandit aliquet elit, eget
-                      tincidunt nibh pulvinar a.
+                      Led by specialist carpenters Karim Bakali and James Brow, we have over 30 years experience of delivering excellence in an ever evolving industry
                     </p>
+                  
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -195,24 +186,10 @@
                       <br />
                     </div>
                     <p class="lead text-justify">
-                      Curabitur non nulla sit amet nisl tempus convallis quis ac
-                      lectus. Curabitur arcu erat, accumsan id imperdiet et,
-                      porttitor at sem. Praesent sapien massa, convallis a
-                      pellentesque nec, egestas non nisi. Nulla porttitor
-                      accumsan tincidunt.
+                      Porchester interiors work hand in hand with architescts and designers to bring to life your designs and find solutions to obstacles that will inevitable arise
                     </p>
-                    <p class="lead text-justify">
-                      Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
-                      a. Vivamus suscipit tortor eget felis porttitor volutpat.
-                      Vestibulum ac diam sit amet quam vehicula elementum sed
-                      sit amet dui. porttitor at sem.
-                    </p>
-                    <p class="lead text-justify">
-                      Nulla porttitor accumsan tincidunt. Quisque velit nisi,
-                      pretium ut lacinia in, elementum id enim. Nulla porttitor
-                      accumsan tincidunt. Mauris blandit aliquet elit, eget
-                      tincidunt nibh pulvinar a.
-                    </p>
+ 
+ 
                   </div>
                 </div>
               </div>
@@ -723,11 +700,10 @@
                       </p>
                       <ul class="list-ico">
                         <li>
-                          <span class="ion-ios-location"></span> 329 WASHINGTON
-                          ST BOSTON, MA 02108
+                          <span class="ion-ios-location"></span> 7 Damby House, Mozart state
                         </li>
                         <li>
-                          <span class="ion-ios-telephone"></span> (617) 557-0089
+                          <span class="ion-ios-telephone"></span> +44 7587 207770
                         </li>
                         <li>
                           <span class="ion-email"></span> contact@example.com
