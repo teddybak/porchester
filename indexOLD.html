@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+
+    <title>Document</title>
+  </head>
+  <header>
+    <div class="overlay"></div>
+    <video
+      id="myvid"
+      playsinline="playsinline"
+      autoplay="autoplay"
+      muted="muted"
+      width="100%"
+    >
+      <source src="media/woods.mp4" type="video/mp4" />
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-3">Porchester Interiors</h1>
+          <p class="display-6">First Hand Experience</p>
+
+          <button type="button" class="btn btn-light">Light</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- <section class="my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto"></div>
+      </div>
+    </div>
+  </section> -->
+
+  <script>
+    video = document.getElementById("myvid");
+    video.addEventListener("ended", function () {
+      alert("video is ended");
+      window.location.href = "home.html";
+    });
+  </script>
+
+  <body>
+    <section class="my-5"></section>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

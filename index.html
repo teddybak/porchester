@@ -1,81 +1,100 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Porchester Interiors</title>
-    <meta
-      name="description"
-      content="Porchester Interiors"
-    />
- 
-    <meta name="author" content="Codrops" />
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="fonts/font-awesome-4.3.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" type="text/css" href="css/styleindex.css" />
-    <!--[if IE]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="container">
-      <header class="codrops-header">
-        <h1>Welcome to Porchester Interior</h1>
-      </header>
-      <!-- /codrops-header -->
+<div id="fullwidth-video">
+  <div class="fullwidth-video-bg">
+    <video
+      playsinline
+      autoplay
+      muted
+      onplaying="this.controls=false"
+      loop
+      id="myvid"
+    >
+      <source
+        src="assets/videos/my-video.mp4"
+        type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+      />
+    </video>
+  </div>
+</div>
+<div id="porchester">
+  <h1 class="display-3">Porchester Interiors</h1>
+  <h3 c>"First hand experience"</h3>
+  <a href="home.html" class="close">Skip intro</a>
+</div>
 
-      <div class="video-wrap">
-        <div class="video-inner">
-          <video
-            class="video-player"
-            src="media/woods.mp4"
-            poster="media/woods.jpg"
-            preload="auto"
-          >
-            <p>Sorry, but your browser does not support this video format.</p>
-          </video>
-          <button class="action action--close" id="close">
-            <i class="fa fa-close"></i
-            ><span class="action__label action__label--hidden"
-              >Close preview</span
-            >
-          </button>
-        </div>
-        <!-- /video-inner -->
-      </div>
-      <!-- /video-wrap-->
-      <div class="content">
-        <div class="loader">
-          <i class="fa fa-spinner fa-pulse"></i>
-        </div>
-        <button class="action action--hidden action--play" id="play">
-          <i class="fa fa-play"></i
-          ><span class="action__label" >Watch the video</span>
-        </button>
-      </div>
-    </div>
-    <!-- /container -->
+<script>
+  video = document.getElementById("myvid");
+  video.addEventListener("ended", function () {
+    alert("video is ended");
+    window.location.href = "home.html";
+  });
+</script>
 
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-      $( document ).ready(function() {
-        $("#play").click(function (){
-        });
-      });
-      $("#close").click(function (e) {
-         e.preventDefault(); //will stop the link href to call the blog page
-        setTimeout(function () {
-          window.location.href = "home.html"; //will redirect to your blog page (an ex: blog.html)
-        }, 1000); //will call the function after 2 secs.
-      });
-    </script>
-  </body>
-</html>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<style>
+  #porchester {
+    position: fixed;
+    top: 3%;
+    margin-left: 5%;
+    z-index: 5000;
+    color: white;
+  }
+  #fullwidth-video {
+    height: 50vw;
+    min-height: 50vh;
+    position: relative;
+  }
+
+  #fullwidth-video .fullwidth-video-bg {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    background-image: url(http://mysite.com/assets/images/bg/myvideobg.jpg);
+  }
+
+  #fullwidth-video video {
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /** For Edge**/
+  @supports (-ms-ime-align: auto) {
+    #fullwidth-video video {
+      object-fit: none;
+      margin: none;
+      position: inherit;
+      z-index: 1;
+      top: 50%;
+      left: 0%;
+      transform: translate(0%, -50%);
+      height: auto;
+      width: 100%;
+    }
+    h3 {
+      font-style: italic;
+    }
+  }
+  .close {
+    position: fixed;
+    color: white !important;
+    z-index: 5000;
+  }
+</style>
