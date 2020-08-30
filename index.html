@@ -41,8 +41,8 @@
     color: white;
   }
   #fullwidth-video {
-    height: 50vw;
-    min-height: 50vh;
+    max-width: 100%;
+    min-height: 100%;
     position: relative;
   }
 
