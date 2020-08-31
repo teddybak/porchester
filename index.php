@@ -1,37 +1,50 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
-</head>
-<body>
-<div id="video_wrapper">
-
-    <video autoplay muted loop>
-        <source src="video/intro.mp4" type="video/mp4">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="dist/jquery.vidbacking.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <title>Video Backing</title>
+  </head>
+  <body>
+    <video
+      poster="assets/screenshot1.jpg"
+      autoplay
+      muted
+      loop
+      class="vidbacking"
+    >
+      <source src="assets/intro.webm" type="video/webm" />
+      <source src="assets/intro.mp4" type="video/mp4" />
     </video>
-
-    <div id="wrapper">
-        <h1>Porchester Interiors</h1>
-        <span class="experience">'First Hand Experience'</span>
- 
+    <div class="video-back">
+      <h1>Porchester Interiors</h1>
+      <div class="clearfix"></div>
     </div>
-
-</div>
-</body>
-<script>
-
-document.querySelector('body').addEventListener('click', function(){
-transitionToPage("https://porchester.herokuapp.com/home.php")
-})
-
-transitionToPage = function(href) {
-    document.querySelector('body').style.opacity = 0
-    setTimeout(function() {
-        window.location.href = 'https://porchester.herokuapp.com/home.php'
-    }, 500)
-}
-
- document.addEventListener('DOMContentLoaded', function(event) {
-    document.querySelector('body').style.opacity = 1
-})
-</script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="dist/jquery.vidbacking.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(function () {
+        $("body").vidbacking({
+          masked: true,
+        });
+        $('body').click(function() {
+          $(location).attr('href', 'home.php')
+});
+        
+      });
+    </script>
+  </body>
 </html>
