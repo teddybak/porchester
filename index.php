@@ -46,7 +46,7 @@
 
 
         $('#background-video').YTPlayer({
-            fitToBackground: true,
+            fitToBackground: false,
             videoId: 'Y9yRL24gWhk',
             pauseOnScroll: true,
             callback: function () {
