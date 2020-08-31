@@ -263,10 +263,10 @@
     </section>
     <!--/ Section Services End /-->
 
-    <div
+    <!-- <div
       class="section-counter paralax-mf bg-image"
       style="background-image: url(img/work1/1.jpg);"
-    >
+    > -->
       <div class="overlay-mf"></div>
       <div class="container">
         <div class="row">
