@@ -15,24 +15,20 @@
     <meta name="description" content="Create fullscreen youtube background videos with this jquery plugin.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Twitter Boostrap for Demo -->
-    <link rel="stylesheet" href="https:////maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <!-- styles for video player -->
-    <link rel="stylesheet" href="src/style.css">
-</head>
+     <!-- styles for video player -->
+ </head>
 <body>
 
 <div id="background-video" class="background-video">
-    <img src="images/placeholder.jpg" alt="" class="placeholder-image">
+    <img src="img/placeholder.jpg" alt="" class="placeholder-image">
 </div>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="lib/jquery/jquery.min.js"></script>
 <!-- ADD Jquery Video Background -->
 <script src="src/jquery.youtubebackground.js"></script>
 <script>
     jQuery(function ($) {
-
-
 
         $('#module-video').YTPlayer({
             fitToBackground: false,
@@ -69,7 +65,7 @@
                 if (event.data === 0) {
                     console.log('video ended');
                 } else if (event.data === 2) {
-                  window.location.href='home.html';
+                  window.location.href='home.php';
                 }
             });
         }

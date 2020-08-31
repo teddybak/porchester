@@ -19,7 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ff7fc92-f195-490b-93f2-95fcc2a839f6" name="Default Changelist" comment="" />
+    <list default="true" id="7ff7fc92-f195-490b-93f2-95fcc2a839f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/placeholder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,9 +47,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -56,7 +69,7 @@
       <workItem from="1598805819891" duration="4133000" />
       <workItem from="1598811676693" duration="2135000" />
       <workItem from="1598859629353" duration="41000" />
-      <workItem from="1598861510699" duration="2310000" />
+      <workItem from="1598861510699" duration="3737000" />
     </task>
     <servers />
   </component>
@@ -75,10 +88,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="416" y="565" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598861542643">
+    <state x="416" y="565" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598865157264">
       <screen x="0" y="432" width="1366" height="768" />
     </state>
-    <state x="416" y="565" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1366.0.1920.1200/0.432.1366.768@0.432.1366.768" timestamp="1598861542643" />
+    <state x="416" y="565" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1366.0.1920.1200/0.432.1366.768@0.432.1366.768" timestamp="1598865157264" />
     <state x="2109" y="337" width="424" height="478" key="FileChooserDialogImpl" timestamp="1598859668998">
       <screen x="1366" y="0" width="1920" height="1200" />
     </state>
