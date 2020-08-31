@@ -20,7 +20,6 @@
 <body>
 
 <div id="background-video" class="background-video">
-    <img src="img/placeholder.jpg" alt="" class="placeholder-image">
 </div>
 
 
