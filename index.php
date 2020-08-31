@@ -32,6 +32,10 @@
 <script>
     jQuery(function ($) {
 
+        var player = $('#background-video').data('ytPlayer').player;
+        player.pauseVideo();
+        player.playVideo();
+
         $('#module-video').YTPlayer({
             fitToBackground: false,
             videoId: 'jKCyFB5LmPo',
