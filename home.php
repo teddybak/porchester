@@ -489,7 +489,7 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="img/work-6.jpg" data-lightbox="gallery-mf">
+              <a href="img/work-6.jpg" data-lightbox="gallery-mf-6">
                 <div class="work-img">
                   <img src="img/work-6.jpg" alt="" class="img-fluid" />
                 </div>
@@ -510,11 +510,157 @@
                   </div>
                 </div>
               </a>
-              <a href="img/work-6.jpg" data-lightbox="gallery-mf"></a>
-              <a href="img/work-6.jpg" data-lightbox="gallery-mf"></a>
+              <a href="img/work-6.jpg" data-lightbox="gallery-mf-6"></a>
+              <a href="img/work-6.jpg" data-lightbox="gallery-mf-6"></a>
 
             </div>
           </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="img/work-7.jpg" data-lightbox="gallery-mf-7">
+                <div class="work-img">
+                  <img src="img/work-7.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">Studio Big Bang</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Web Design</span> /
+                        <span class="w-date">18 Sep. 2017</span>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="w-like">
+                        <span class="ion-ios-plus-outline"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="img/work-7.jpg" data-lightbox="gallery-mf-7"></a>
+              <a href="img/work-7.jpg" data-lightbox="gallery-mf-7"></a>
+
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="img/work-8.jpg" data-lightbox="gallery-mf-8">
+                <div class="work-img">
+                  <img src="img/work-8.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">Studio Big Bang</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Web Design</span> /
+                        <span class="w-date">18 Sep. 2017</span>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="w-like">
+                        <span class="ion-ios-plus-outline"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="img/work-8.jpg" data-lightbox="gallery-mf-8"></a>
+              <a href="img/work-8.jpg" data-lightbox="gallery-mf-8"></a>
+
+            </div>
+          </div>  
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="img/work-9.jpg" data-lightbox="gallery-mf-9">
+                <div class="work-img">
+                  <img src="img/work-9.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">Studio Big Bang</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Web Design</span> /
+                        <span class="w-date">18 Sep. 2017</span>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="w-like">
+                        <span class="ion-ios-plus-outline"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="img/work-9.jpg" data-lightbox="gallery-mf-9"></a>
+              <a href="img/work-9.jpg" data-lightbox="gallery-mf-9"></a>
+
+            </div>
+          </div>    
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="img/work-10.jpg" data-lightbox="gallery-mf-10">
+                <div class="work-img">
+                  <img src="img/work-10.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">Studio Big Bang</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Web Design</span> /
+                        <span class="w-date">18 Sep. 2017</span>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="w-like">
+                        <span class="ion-ios-plus-outline"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="img/work-10.jpg" data-lightbox="gallery-mf-10"></a>
+              <a href="img/work-10.jpg" data-lightbox="gallery-mf-10"></a>
+
+            </div>
+          </div>   
+
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="img/work-11.jpg" data-lightbox="gallery-mf-11">
+                <div class="work-img">
+                  <img src="img/work-11.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">Studio Big Bang</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Web Design</span> /
+                        <span class="w-date">18 Sep. 2017</span>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="w-like">
+                        <span class="ion-ios-plus-outline"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="img/work-11.jpg" data-lightbox="gallery-mf-11"></a>
+              <a href="img/work-11.jpg" data-lightbox="gallery-mf-11"></a>
+
+            </div>
+          </div>                                 
         </div>
       </div>
     </section>
