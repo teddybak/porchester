@@ -12,8 +12,7 @@
     <div id="wrapper">
         <h1>Porchester Interiors</h1>
         <span class="experience">'First Hand Experience'</span>
-        <span onclick="transitionToPage('home.php')">me voy</span>
-
+ 
     </div>
 
 </div>
@@ -21,13 +20,13 @@
 <script>
 
 document.querySelector('body').addEventListener('click', function(){
-transitionToPage("home.php")
+transitionToPage("https://porchester.herokuapp.com/home.php")
 })
 
 transitionToPage = function(href) {
     document.querySelector('body').style.opacity = 0
     setTimeout(function() {
-        window.location.href = 'home.php'
+        window.location.href = 'https://porchester.herokuapp.com/home.php'
     }, 500)
 }
 
