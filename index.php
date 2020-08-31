@@ -12,14 +12,27 @@
     <div id="wrapper">
         <h1>Porchester Interiors</h1>
         <span class="experience">'First Hand Experience'</span>
+        <span onclick="transitionToPage('home.php')">me voy</span>
+
     </div>
 
 </div>
 </body>
 <script>
-var body = document.querySelector("body");
-body.addEventListener('click', function (){
-document.location.href = '<?php echo "home.php"; ?>';
+
+document.querySelector('body').addEventListener('click', function(){
+transitionToPage("home.php")
+})
+
+transitionToPage = function(href) {
+    document.querySelector('body').style.opacity = 0
+    setTimeout(function() {
+        window.location.href = 'home.php'
+    }, 500)
+}
+
+ document.addEventListener('DOMContentLoaded', function(event) {
+    document.querySelector('body').style.opacity = 1
 })
 </script>
 </html>

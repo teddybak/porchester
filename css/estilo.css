@@ -47,3 +47,8 @@ h1
     font-style: italic;
     background-color: rgba(112, 112, 112, 0.74);
 }
+
+body {
+    opacity: 0;
+    transition: opacity .5s;
+}
