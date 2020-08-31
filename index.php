@@ -32,9 +32,7 @@
 <script>
     jQuery(function ($) {
 
-        var player = $('#background-video').data('ytPlayer').player;
-        player.pauseVideo();
-        player.playVideo();
+
 
         $('#module-video').YTPlayer({
             fitToBackground: false,
@@ -50,6 +48,7 @@
                 autohide: 0
             }
         });
+
 
         $('#background-video').YTPlayer({
             fitToBackground: true,
